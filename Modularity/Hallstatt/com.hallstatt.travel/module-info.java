@@ -1,1 +1,0 @@
-module com.hallstatt.travel {}
