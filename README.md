@@ -21,9 +21,9 @@
 Ref:
 ----
 
-https://www.baeldung.com/new-java-9
-https://www.digitalocean.com/community/tutorials/java-9-features-with-examples#completablefuture-api-improvements (some misc at the end)
-https://www.geeksforgeeks.org/java-9-features-with-examples/
-https://www.javatpoint.com/java-9-features
-https://iampravo.medium.com/java-9-75702d499de0 (good one, with examples)
-https://medium.com/@vijayaneraye/important-features-java-9-java-10-java-11-java-12-java13-java-14-java-15-java-16-java-17-650420ee7337
+- https://www.baeldung.com/new-java-9
+- https://www.digitalocean.com/community/tutorials/java-9-features-with-examples#completablefuture-api-improvements (some misc at the end)
+- https://www.geeksforgeeks.org/java-9-features-with-examples/
+- https://www.javatpoint.com/java-9-features
+- https://iampravo.medium.com/java-9-75702d499de0 (good one, with examples)
+- https://medium.com/@vijayaneraye/important-features-java-9-java-10-java-11-java-12-java13-java-14-java-15-java-16-java-17-650420ee7337
