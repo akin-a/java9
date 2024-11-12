@@ -7,3 +7,6 @@
 - By default, 10 basic imports are involved.
 - We can write one liners, piece of code to run, methods, class etc to run
 - Can add extra imports if required.
+
+Ref:
+https://www.pranaybathini.com/2021/07/getting-started-with-jshell.html
