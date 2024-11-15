@@ -12,9 +12,11 @@ Prior to JDK 9, creating a small, unmodifiable collection of List, Set, or Map i
 
 Alternatively, you could populate a collection using a "copy constructor" from another collection, for example,
 
-**List lst2 = Collections.unmodifiableList(
+```
+// Using the "copy constructor" of ArrayList
+List lst2 = Collections.unmodifiableList(
 new ArrayList<>(Arrays.asList("apple2", "orange2", "banana2")));
-// Using the "copy constructor" of ArrayList**
+````
 
 Another alternative is to use the so-called "double brace" technique, which uses the instance-initializer construct in an anonymous inner class, for example,
 
