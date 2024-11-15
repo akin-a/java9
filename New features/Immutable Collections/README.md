@@ -3,11 +3,11 @@ Motivation
 Prior to JDK 9, creating a small, unmodifiable collection of List, Set, or Map involves constructing it, storing it in a local variable, and invoking add() on it several times, and then wrapping it. For example,
 
 ```
-**List lst1 = new ArrayList<>();  // construct and store in a local variable** /n
-**lst1.add("apple1");             // several add()'s**
-**lst1.add("orange1");**
-**lst1.add("banana1");**
-**lst1 = Collections.unmodifiableList(lst1);  // wrap it**
+ List lst1 = new ArrayList<>();  // construct and store in a local variable /n
+   lst1.add("apple1");             // several add()'s
+   lst1.add("orange1");
+   lst1.add("banana1");
+   lst1 = Collections.unmodifiableList(lst1);  // wrap it
 ```
 
 Alternatively, you could populate a collection using a "copy constructor" from another collection, for example,
