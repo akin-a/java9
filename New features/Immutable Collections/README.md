@@ -14,8 +14,7 @@ Alternatively, you could populate a collection using a "copy constructor" from a
 
 ```
 // Using the "copy constructor" of ArrayList
-List lst2 = Collections.unmodifiableList(
-new ArrayList<>(Arrays.asList("apple2", "orange2", "banana2")));
+List lst2 = Collections.unmodifiableList(new ArrayList<>(Arrays.asList("apple2", "orange2", "banana2")));
 ````
 
 Another alternative is to use the so-called "double brace" technique, which uses the instance-initializer construct in an anonymous inner class, for example,
