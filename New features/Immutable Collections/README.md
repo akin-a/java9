@@ -1,16 +1,18 @@
 Motivation
 Prior to JDK 9, creating a small, unmodifiable collection of List, Set, or Map involves constructing it, storing it in a local variable, and invoking add() on it several times, and then wrapping it. For example,
 
-List lst1 = new ArrayList<>();  // construct and store in a local variable
+**List lst1 = new ArrayList<>();  // construct and store in a local variable
 lst1.add("apple1");             // several add()'s
 lst1.add("orange1");
 lst1.add("banana1");
-lst1 = Collections.unmodifiableList(lst1);  // wrap it
+lst1 = Collections.unmodifiableList(lst1);  // wrap it**
+
 Alternatively, you could populate a collection using a "copy constructor" from another collection, for example,
 
-List lst2 = Collections.unmodifiableList(
+**List lst2 = Collections.unmodifiableList(
 new ArrayList<>(Arrays.asList("apple2", "orange2", "banana2")));
-// Using the "copy constructor" of ArrayList
+// Using the "copy constructor" of ArrayList**
+
 Another alternative is to use the so-called "double brace" technique, which uses the instance-initializer construct in an anonymous inner class, for example,
 
 List lst3 = Collections.unmodifiableList(new ArrayList<>() {{
